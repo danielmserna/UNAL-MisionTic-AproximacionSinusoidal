@@ -6,9 +6,9 @@ def aproxSin(x,n):
     factorial = 1
     for j in range(1,(2*i + 1)+1):
       factorial = factorial*j
-    print('Factorial de ' + str(2*i + 1) + ' = ' + str(factorial))
+    #print('Factorial de ' + str(2*i + 1) + ' = ' + str(factorial))
     s += ( ( (-1)**i ) * ( x**(2*i + 1 ) )) /factorial
-    print('Denominador = ' + str(( ( (-1)**i ) * ( x**(2*i + 1 ) ))))
+    #print('Denominador = ' + str(( ( (-1)**i ) * ( x**(2*i + 1 ) ))))
   return s
 
-print(str(aproxSin(1.5708,20)))
+print(str(aproxSin(1.5708,40)))
